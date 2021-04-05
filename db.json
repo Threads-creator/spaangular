@@ -1,0 +1,104 @@
+{
+  "carros": [
+    {
+      "marca": "Ford",
+      "modelo": "New Fiesta se plus 1.6 AT",
+      "ano": "2016-02-07T03:00:00.000Z",
+      "preco": 70000,
+      "cor": "blue",
+      "descricao": "Carro sedan e hatch, descricao alterada",
+      "linkImg": "https://revistacarro.com.br/wp-content/uploads/2018/05/ford_new_fiesta_se_plus.jpg",
+      "id": 1
+    },
+    {
+      "marca": "Ford",
+      "modelo": "Focus SE plus 1.6",
+      "ano": "2019-06-25T03:00:00.000Z",
+      "preco": 71000,
+      "cor": "red",
+      "descricao": "Carro bom de dirigir",
+      "linkImg": "https://1.bp.blogspot.com/-WeQ2wrIA7q8/WllwPlFrnWI/AAAAAAACNVc/MydMfkV5_yEkyGJqqyOt2StS__NhBPnwwCLcBGAs/s1600/BR_Colours_004-1.jpg",
+      "id": 2
+    },
+    {
+      "marca": "Ford",
+      "modelo": "EcoSport FreeStyle 1.6",
+      "ano": "2017-10-25T03:00:00.000Z",
+      "preco": 60000,
+      "cor": "white",
+      "descricao": "Carro que deveria ser espaçoso mas nao é tanto assim",
+      "linkImg": "https://www.heycar.com.br/images/2016/Dezembro/Galerias/Ford/Ecosport/Ford_Ecosport_2017-01.jpg",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "modelo": "Argo Drive 1.3",
+      "marca": "Fiat",
+      "ano": "2019-10-25T03:00:00.000Z",
+      "cor": "black",
+      "descricao": "Bom de dirigir mas muito caro ",
+      "linkImg": "https://revistacarro.com.br/wp-content/uploads/2019/11/Fiat-Argo-S-Design_6.jpg",
+      "preco": 59900
+    },
+    {
+      "id": 5,
+      "modelo": "Cronos Drive 1.3",
+      "marca": "Fiat",
+      "ano": "2019-10-25T03:00:00.000Z",
+      "cor": "red",
+      "descricao": "Nenhuma descrição encontrada",
+      "linkImg": "https://revistacarro.com.br/wp-content/uploads/2019/11/Fiat-Cronos-S-Design_5.jpg",
+      "preco": 65500
+    },
+    {
+      "id": 6,
+      "modelo": "ES 300h",
+      "marca": "Lexus",
+      "ano": "2019-10-25T03:00:00.000Z",
+      "cor": "gray",
+      "descricao": "Muito luxo, baixo consumo e muito caro",
+      "linkImg": "https://revistacarro.com.br/wp-content/uploads/2019/08/Lexus-300h-8.jpg",
+      "preco": 239990
+    },
+    {
+      "id": 7,
+      "modelo": "Corolla Altis",
+      "marca": "Toyota",
+      "ano": "2019-10-25T03:00:00.000Z",
+      "cor": "brown",
+      "descricao": "Carro muito cobiçado e muito caro",
+      "linkImg": "https://cdn-motorshow-ssl.akamaized.net/wp-content/uploads/sites/2/2017/03/3-corolla-altis-2018-630x420.jpg",
+      "preco": 118990
+    },
+    {
+      "marca": "Toyota",
+      "modelo": "Hilux SRV Flex 4x4 AT",
+      "ano": "2021-10-19T03:00:00.000Z",
+      "preco": 169790,
+      "cor": "blue",
+      "descricao": "Nenhuma descrição encontrada",
+      "linkImg": "https://cdn.motor1.com/images/mgl/wV1YG/s1/toyota-hilux-2021-brasil.jpg",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "modelo": "Camaro SS",
+      "marca": "Chevrolete",
+      "ano": "2020-10-25T03:00:00.000Z",
+      "cor": "blue",
+      "descricao": "Carro esportivo com 461 cv e bebe muito",
+      "linkImg": "https://cdn.motor1.com/images/mgl/ZJgy3/s3/2020-chevrolet-camaro-ss.webp",
+      "preco": 377900
+    },
+    {
+      "id": 10,
+      "modelo": "Onix Plus 1.0 Turbo LTZ (AT)",
+      "marca": "Chevrolete",
+      "ano": "2021-10-25T03:00:00.000Z",
+      "cor": "blue",
+      "descricao": "Carro muito vendido",
+      "linkImg": "https://revistacarro.com.br/wp-content/uploads/2019/10/Onix-Plus-Premier-09.jpg",
+      "preco": 78860
+    }
+  ]
+}

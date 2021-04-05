@@ -1,0 +1,40 @@
+.entrada {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+.entrada label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    min-width: 100px;
+}
+
+.entrada input{
+    float: right;
+    width: 80%;
+}
+
+.entrada select{
+    float: right;
+}
+
+.formulario {
+    margin: 10px 15%;
+    border: 2px solid slategrey;
+}
+
+#btnSalvar {
+    margin: 0px 20px;
+    width: 30%;
+    margin-left: 80%;
+    align-self: flex-end;
+    background-color: springgreen;
+}
+
+@media(max-width: 820px){
+    .entrada select{
+        float: left;
+    }
+}

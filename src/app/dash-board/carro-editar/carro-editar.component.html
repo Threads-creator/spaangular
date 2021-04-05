@@ -1,0 +1,35 @@
+<form class="formulario" [formGroup]="formGroup" (ngSubmit)="salvar()">
+    <div class="entrada">
+        <label>Marca</label>
+        <input type="text" formControlName="marca">
+    </div>
+    <div class="entrada">
+        <label>Modelo</label>
+        <input type="text" formControlName="modelo">
+    </div>
+    <div class="entrada">
+        <label>Ano</label>
+        <input type="date" [value]="dateToInput()" formControlName="ano">
+    </div>
+    <div class="entrada">
+        <label>Preço</label>
+        <input type="number" step="1000" formControlName="preco" >
+    </div>
+    <div class="entrada">
+        <label>Cor</label>
+        <select formControlName="cor">
+            <option *ngFor="let cor of _cores" [value]="cor">{{cor}}</option>
+        </select>
+    </div>
+    <div class="entrada">
+        <label>Descrição</label>
+        <input type="text" formControlName="descricao">
+    </div>
+    <div class="entrada">
+        <label>Link da Imagem</label>
+        <input type="text" formControlName="linkImg">
+    </div>
+    <div class="entrada">
+        <button id="btnSalvar" mat-raised-button color="green" type="submit">Salvar</button>
+    </div>
+</form>

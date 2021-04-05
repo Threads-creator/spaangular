@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="img">
+        <img src="{{carro.linkImg}}">
+    </div>
+    <div class="info-carro">
+        <h3>{{ carro.marca }} {{ carro.modelo }}</h3>
+        <p><b>Ano: </b> {{ carro.ano | date: 'yyyy' }} </p>
+        <p><b>Preço: R$ </b> {{ carro.preco }},00 </p>
+        <p id="descricao"> {{ carro.descricao }} </p>
+        <button *ngIf="carro.id != 0" id="btnEditar" mat-raised-button color="warn" (click)="btnEditarClicked()">Editar</button>
+    </div>
+</div>
+<spa-carro-editar *ngIf="editar == true" [carro]="carro" (carroSalvo)="edicaoOcorreu($event)"></spa-carro-editar>

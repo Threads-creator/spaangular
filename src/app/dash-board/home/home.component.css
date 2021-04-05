@@ -1,0 +1,9 @@
+.tabela{
+    margin: 10px 10%;
+}
+
+@media(max-width: 750px){
+    .tabela{
+        margin: 10px 0px;
+    }
+}
